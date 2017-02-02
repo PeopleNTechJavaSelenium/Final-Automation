@@ -1,0 +1,16 @@
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/HomePageUI/LogIn/LogInBtn.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/HomePageUI/Search/SearchBar.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/HomePageUI/TwitchPrime/TwitchPrimeBtn.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/TwitchPrimeUI/TwitchPrimePageUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/HomePageUI/SignUp/SignUpBtn.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/HomePageUI/NavigationUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/LoginUI/LoginPageUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/SignUpUI/SignUpPageUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/HomePage/FeaturedGames/Dota2FeaturedGame.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/BrowseUI/BrowsePageUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/methods/CommonMethods.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/SearchUI/SearchBarUI.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/HomePage/TopLiveChannels/FirstTopLiveChannel.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java

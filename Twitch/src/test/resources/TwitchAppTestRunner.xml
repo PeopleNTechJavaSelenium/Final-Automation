@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Twitch on Chrome"  parallel="methods" thread-count="1">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="userName" value="Abrasham_94"/>
+    <parameter name="accessKey" value="de23f75f-74d4-42e3-8bda-f66b0acbf827"/>
+    <parameter name="os" value="Mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="50"/>
+    <parameter name="url" value="https://www.twitch.tv"/>
+
+    <test name = "Twitch Test">
+        <classes>
+            <!--<class name="SignInTest.TwitchSignInTest"/>-->
+            <!--<class name="HomePageTest.FeaturedGamesTest.FeaturedGames"/>-->
+            <!--<class name="HomePageTest.TopLiveChannelTest.FirstTopLiveChannelTest"/>-->
+            <!--<class name="BrowseTest.PopularGamesTest"/>-->
+            <class name="HomePageTest.TopPS4ChannelsTest.AllTopPS4ChannelsTest"/>
+        </classes>
+    </test>
+</suite>
