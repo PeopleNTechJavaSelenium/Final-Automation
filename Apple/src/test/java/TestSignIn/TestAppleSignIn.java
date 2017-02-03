@@ -29,7 +29,7 @@ public class TestAppleSignIn extends CommonMethods {
 
 
 
-//    @Test(priority = 3)
+//    @Test
 //    public void signInUsingCorrectEmail() throws Exception {
 //        AppleSignIn appleSignIn = PageFactory.initElements(driver, AppleSignIn.class);
 //        appleSignIn.appleLogin("abrashamchy@gmail.com", "");//           <----ENTER PASSWORD BEFORE RUNNING
@@ -38,7 +38,7 @@ public class TestAppleSignIn extends CommonMethods {
 //
 //    }
 
-//    @Test(priority = 4)
+//    @Test
 //    public void signInUsingScanner() throws Exception{
 //        userLogInScanner();
 //

@@ -26,7 +26,6 @@ public class PopularGamesTest extends CommonMethods {
         System.out.println("<<<<<<<<<<< >>>>>>>>>>>");
         popularGamesTwitch().findFirstPopularGame();
         System.out.println(driver.getTitle() + " : " + driver.getCurrentUrl());
-
     }
 
         @Test

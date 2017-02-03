@@ -20,7 +20,7 @@
             <class name="AppleSearch.TestSearchWithExcel"/>
             <class name="AppleSearch.TestSearchWithDataProvider"/>
             <class name="AppleSearch.TestSearchWithDB"/>
-            <!--<class name="AppleTable.TableData"/>-->
+            <class name="MacbookProSpecsTable.TableData"/>
         </classes>
     </test>
 </suite>

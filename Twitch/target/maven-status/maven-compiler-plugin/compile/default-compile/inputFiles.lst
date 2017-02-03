@@ -13,4 +13,5 @@
 /Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java
 /Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/UI/SearchUI/SearchBarUI.java
 /Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/HomePage/TopLiveChannels/FirstTopLiveChannel.java
+/Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.java
 /Users/abra/maven-projects/FinalAutomation/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java

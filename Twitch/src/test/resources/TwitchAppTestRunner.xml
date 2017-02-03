@@ -15,10 +15,10 @@
     <test name = "Twitch Test">
         <classes>
             <!--<class name="SignInTest.TwitchSignInTest"/>-->
-            <!--<class name="HomePageTest.FeaturedGamesTest.FeaturedGames"/>-->
-            <!--<class name="HomePageTest.TopLiveChannelTest.FirstTopLiveChannelTest"/>-->
-            <!--<class name="BrowseTest.PopularGamesTest"/>-->
-            <class name="HomePageTest.TopPS4ChannelsTest.AllTopPS4ChannelsTest"/>
+            <class name="HomePageTest.FeaturedGamesTest.FeaturedGames"/>
+            <class name="HomePageTest.TopLiveChannelTest.FirstTopLiveChannelTest"/>
+            <class name="BrowseTest.PopularGamesTest"/>
+            <!--<class name="HomePageTest.TopPS4ChannelsTest.AllTopPS4ChannelsTest"/>-->
         </classes>
     </test>
 </suite>
