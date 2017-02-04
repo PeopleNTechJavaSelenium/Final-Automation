@@ -1,5 +1,7 @@
 package Base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,6 +13,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -89,17 +92,38 @@ public class CommonAPI {
     }
     }
 
+    public ExtentReports report;
+    public ExtentTest logger;
     @AfterMethod
 
-    //To take screemshot on failure
-//    public void tearDown(ITestResult result) {
-//        if(ITestResult.FAILURE== result.getStatus()){
-//            captureScreenshot(driver,result.getName());
-//        }
-            public void tearDown(){
+    //To take screenshot on failure
+    public void tearDown(ITestResult result) {
+
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
+        report.endTest(logger);
+        report.flush();
         driver.quit();
     }
+            //public void tearDown(){
 
+    //}
+
+
+
+
+    public static void captureScreenshot(WebDriver driver, String screenshotName){
+
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(file, new File("../Apple/screenshots/"+screenshotName+".png"));
+            System.out.println("Screenshot captured");
+        } catch (Exception e) {
+            System.out.println("Exception while taking screenshot "+e.getMessage());;
+        }
+
+    }
 
     //Taking Screenshots
     public void takeScreenShot()throws IOException {
