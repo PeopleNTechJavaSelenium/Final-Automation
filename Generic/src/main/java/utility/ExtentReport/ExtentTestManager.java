@@ -1,6 +1,5 @@
-package com.extentereports.listener;
+package utility.ExtentReport;
 
-import Base.CommonAPI;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
@@ -10,9 +9,12 @@ import java.util.Map;
 /**
  * Created by abra on 2/9/17.
  */
-public class ExtentTestManager extends CommonAPI {
+public class ExtentTestManager{
+
+    //CREATES COMMON TEST
+
     static Map<Integer, ExtentTest> extentTestMap = new HashMap<Integer, ExtentTest>();
-    private static ExtentReports extent = ExtentManager.getInstance();
+    private static ExtentReports extent = utility.ExtentReport.ExtentManager.getInstance();
 
     public static synchronized ExtentTest getTest() {
         return extentTestMap.get((int) (long) (Thread.currentThread().getId()));

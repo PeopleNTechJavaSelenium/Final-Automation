@@ -5,6 +5,7 @@ import PageFactory.SearchBar.AppleSearchBar;
 import dataToSearch.ExcelDataReader;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import utility.ExtentReport.TestLogger;
 
 import java.io.IOException;
 
@@ -22,6 +23,7 @@ public class TestSearchWithExcel extends CommonAPI {
 
         for(int i=1; i<value.length;i++){
             appleSearchBar.searchWithEnter(value[i]);
+            TestLogger.log("Searched for product using Excel file");
             System.out.println(value[i]);
             navigateBack();
         }

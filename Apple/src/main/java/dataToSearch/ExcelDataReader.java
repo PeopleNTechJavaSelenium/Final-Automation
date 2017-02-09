@@ -1,6 +1,6 @@
 package dataToSearch;
 
-import utility.DataReader;
+import utility.DataReader.UseDataReader;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class ExcelDataReader {
 
-    DataReader dr = new DataReader();
+    UseDataReader dr = new UseDataReader();
     public String[] getData() throws IOException {
         String path = System.getProperty("user.dir")+"/data/AmazonTestSearchItems.xls";
         String[] st = dr.fileReader(path);

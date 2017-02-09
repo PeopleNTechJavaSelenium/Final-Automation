@@ -7,7 +7,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import utility.ConnectDatabaseSQL;
+import utility.ExtentReport.TestLogger;
+import utility.SQL.ConnectDatabaseSQL;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -30,12 +31,16 @@ public class CommonMethods extends CommonAPI {
             appleSignIn.appleLoginPage();
 
             ConnectDatabaseSQL connectDatabaseSQL= new ConnectDatabaseSQL();
+            TestLogger.log("Connected to mySQL database");
             List<String> list = new ArrayList<String>();
             list=connectDatabaseSQL.retrieveDataFromTable("login_info","apple_login_credentials");
             int i=0;
             typeByCss("#login-appleId",list.get(i));
+            TestLogger.log("Entered Apple ID using database");
             typeByCss("#login-password", list.get(i+1));
+            TestLogger.log("Entered Password using database");
             clickByCss("#sign-in");
+            TestLogger.log("Clicked on Sign In button");
             loggedIn=true;
         }
 

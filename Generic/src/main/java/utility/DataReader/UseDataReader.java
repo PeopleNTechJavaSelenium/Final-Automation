@@ -1,4 +1,4 @@
-package utility;
+package utility.DataReader;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -15,7 +15,7 @@ import java.io.IOException;
 /**
  * Created by abra on 1/31/17.
  */
-public class DataReader {
+public class UseDataReader {
 
     HSSFWorkbook wb = null;
     HSSFSheet sheet = null;

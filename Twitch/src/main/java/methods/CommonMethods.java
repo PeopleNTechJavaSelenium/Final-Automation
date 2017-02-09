@@ -7,7 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import utility.ConnectDatabaseSQL;
+import utility.SQL.ConnectDatabaseSQL;
 
 import java.io.File;
 import java.util.ArrayList;

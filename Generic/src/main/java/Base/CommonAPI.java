@@ -1,5 +1,7 @@
 package Base;
 
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,14 +13,21 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.testng.ITestContext;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
+import utility.ExtentReport.ExtentManager;
+import utility.ExtentReport.ExtentTestManager;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -28,19 +37,69 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
 
-//    public ExtentReports extent;
-  //  public ExtentTest test;
+    //**************************    E X T E N T     R E P O R T     *********************************
 
 
-//    @BeforeTest
-//    public void startReport() {
-//    extent = new ExtentReports(System.getProperty("user.dir") + "/Extent-Report/NewReport1.html", true);
-//        extent.addSystemInfo("Host Name" , "Abra")
-//                .addSystemInfo("Environment", "QA")
-//                .addSystemInfo("User Name", "Abrasham Chowdhury");
-//        extent.loadConfig(new File(System.getProperty("user.dir") + "/report-config.xml"));
-//
-//}
+    public static ExtentReports extent;
+
+    @BeforeSuite
+    public void extentSetup(ITestContext context) {
+        ExtentManager.setOutputDirectory(context);
+        extent = ExtentManager.getInstance();
+    }
+
+    @BeforeMethod
+    public void startExtent(Method method) {
+        ExtentTestManager.startTest(method.getName()); // new
+    }
+
+    protected String getStackTrace(Throwable t) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        t.printStackTrace(pw);
+        return sw.toString();
+    }
+
+    @AfterMethod
+    public void afterEachTestMethod(ITestResult result) {
+        ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));  // new
+        ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));  // new
+
+        for (String group : result.getMethod().getGroups()) {
+            ExtentTestManager.getTest().assignCategory(group);  // new
+        }
+
+        if (result.getStatus() == 1) {
+            ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");  // new
+        } else if (result.getStatus() == 2) {
+            ExtentTestManager.getTest().log(LogStatus.FAIL, getStackTrace(result.getThrowable()));  // new
+        } else if (result.getStatus() == 3) {
+            ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");  // new
+        }
+
+        ExtentTestManager.endTest();  // new
+
+        extent.flush();
+        driver.quit();
+    }
+
+    @AfterSuite
+    public void generateReport() {
+        extent.close();
+    }
+
+    private Date getTime(long millis) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTimeInMillis(millis);
+        return calendar.getTime();
+    }
+
+
+    //**************************    E X T E N T     R E P O R T     *********************************
+
+
+
+
 
 
     public WebDriver driver = null;
@@ -61,11 +120,9 @@ public class CommonAPI {
 
         }
 
-
-
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        driver.get(url);
         driver.manage().window().maximize();
+        driver.get(url);
     }
 
     public WebDriver getLocalDriver(String OS,String browserName){

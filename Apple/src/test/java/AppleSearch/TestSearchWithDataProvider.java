@@ -1,8 +1,8 @@
 package AppleSearch;
 
+import Base.CommonAPI;
 import PageFactory.SearchBar.AppleSearchBar;
-import methods.BaseTest;
-import com.extentereports.listener.TestLogger;
+import utility.ExtentReport.TestLogger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 /**
  * Created by abra on 1/31/17.
  */
-public class TestSearchWithDataProvider extends BaseTest {
+public class TestSearchWithDataProvider extends CommonAPI {
 
 
     @DataProvider(name = "Products")
@@ -25,11 +25,10 @@ public class TestSearchWithDataProvider extends BaseTest {
     @Test(dataProvider = "Products")
     public void searchUsingDataProvider(String data) throws InterruptedException{
         AppleSearchBar appleSearchBar = PageFactory.initElements(driver, AppleSearchBar.class);
-        TestLogger.log("Searching for items");
         appleSearchBar.searchWithEnter(data);
         appleSearchBar.clearSearchInput();
-        TestLogger.log("Searched for iPhone, Macbook Pro & iPad");
-       TestLogger.log("Search for items finished");
+        TestLogger.log("Cleared Search Input");
+       TestLogger.log("Finished Searching for Product using Data Provider");
     }
 
 }
