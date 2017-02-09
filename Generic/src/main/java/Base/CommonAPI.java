@@ -1,7 +1,5 @@
 package Base;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,8 +11,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -32,7 +28,23 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
 
+//    public ExtentReports extent;
+  //  public ExtentTest test;
+
+
+//    @BeforeTest
+//    public void startReport() {
+//    extent = new ExtentReports(System.getProperty("user.dir") + "/Extent-Report/NewReport1.html", true);
+//        extent.addSystemInfo("Host Name" , "Abra")
+//                .addSystemInfo("Environment", "QA")
+//                .addSystemInfo("User Name", "Abrasham Chowdhury");
+//        extent.loadConfig(new File(System.getProperty("user.dir") + "/report-config.xml"));
+//
+//}
+
+
     public WebDriver driver = null;
+
     @Parameters({"useCloudEnv","userName","accessKey","os","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("Abrasham_94") String userName, @Optional("")
@@ -49,10 +61,11 @@ public class CommonAPI {
 
         }
 
+
+
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.get(url);
         driver.manage().window().maximize();
-
     }
 
     public WebDriver getLocalDriver(String OS,String browserName){
@@ -92,25 +105,23 @@ public class CommonAPI {
     }
     }
 
-    public ExtentReports report;
-    public ExtentTest logger;
-    @AfterMethod
-
-    //To take screenshot on failure
-    public void tearDown(ITestResult result) {
-
-        if (result.getStatus() == ITestResult.FAILURE) {
-            captureScreenshot(driver, result.getName());
-        }
-        report.endTest(logger);
-        report.flush();
-        driver.quit();
-    }
-            //public void tearDown(){
-
-    //}
-
-
+//    @AfterMethod
+//    //To take screenshot on failure
+//    public void tearDown(ITestResult result) {
+//
+//        if (result.getStatus() == ITestResult.FAILURE) {
+//            captureScreenshot(driver, result.getName());
+//            test.log(LogStatus.FAIL, result.getThrowable());
+//        }
+//        extent.endTest(test);
+//        driver.quit();
+//    }
+//
+//        @AfterTest
+//        public void endReport(){
+//        extent.flush();
+//        extent.close();
+// }
 
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){

@@ -11,14 +11,13 @@ import java.util.List;
 /**
  * Created by abra on 2/1/17.
  */
-public class AppleHomePageHeader extends CommonMethods{
+public class AppleHomePageHeader extends CommonMethods {
 
     @FindBy(xpath = ".//*[@id='ac-globalnav']/div/ul[2]/li/a")
     List<WebElement> elements = new ArrayList<WebElement>();
 
     @FindBy(css = ".eyebrow")
     public WebElement titleMacBookPro;
-
 
 
     public Apple appleClick() {

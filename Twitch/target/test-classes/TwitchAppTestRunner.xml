@@ -4,7 +4,7 @@
 
 <suite name="Twitch on Chrome"  parallel="methods" thread-count="1">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="userName" value="Abrasham_94"/>
     <parameter name="accessKey" value="de23f75f-74d4-42e3-8bda-f66b0acbf827"/>
     <parameter name="os" value="Mac"/>
