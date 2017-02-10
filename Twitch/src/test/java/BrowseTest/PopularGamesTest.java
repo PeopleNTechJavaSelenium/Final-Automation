@@ -1,15 +1,15 @@
 package BrowseTest;
 
+import Base.CommonAPI;
 import PageFactory.BrowsePage.PopularGames;
 import PageFactory.HomePage.SiteHeader.SiteHeaderOptions;
-import methods.CommonMethods;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 /**
  * Created by abra on 2/1/17.
  */
-public class PopularGamesTest extends CommonMethods {
+public class PopularGamesTest extends CommonAPI {
 
         public PopularGames popularGamesTwitch(){
         PopularGames popularGames = PageFactory.initElements(driver, PopularGames.class);

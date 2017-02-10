@@ -102,7 +102,7 @@ public class CommonAPI {
 
 
 
-    public WebDriver driver = null;
+    public static WebDriver driver = null;
 
     @Parameters({"useCloudEnv","userName","accessKey","os","browserName","browserVersion","url"})
     @BeforeMethod
@@ -120,6 +120,7 @@ public class CommonAPI {
 
         }
 
+
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(url);
@@ -133,6 +134,7 @@ public class CommonAPI {
                 System.setProperty("webdriver.chrome.driver", "../Generic/driver/chromedriver.exe");
             }
             driver = new ChromeDriver();
+
         }else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("Mac")){
                 System.setProperty("webdriver.gecko.driver", "../Generic/driver/geckodriver");
@@ -186,6 +188,12 @@ public class CommonAPI {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File("../Apple/screenshots/"+screenshotName+".png"));
+
+//            DateFormat df = new SimpleDateFormat("HHmmss");
+//            Date dateobj = new Date();
+//            String fileName = "Screenshots\\screenshot3”+dateobj+”.png"
+//            FileUtils.copyFile(scrFile, new File(fileName));
+            
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
@@ -258,9 +266,11 @@ public class CommonAPI {
     public void navigateBack(){
         driver.navigate().back();
     }
+
     public void navigateForward(){
         driver.navigate().forward();
     }
+
     public String getTextByCss(String locator){
         String st = driver.findElement(By.cssSelector(locator)).getText();
         return st;

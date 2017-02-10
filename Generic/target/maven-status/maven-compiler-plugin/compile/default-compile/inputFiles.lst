@@ -1,3 +1,6 @@
-/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/ConnectDatabaseSQL.java
+/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/ExtentReport/TestLogger.java
 /Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/Base/CommonAPI.java
-/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/DataReader.java
+/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/SQL/ConnectDatabaseSQL.java
+/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/DataReader/UseDataReader.java
+/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/ExtentReport/ExtentTestManager.java
+/Users/abra/maven-projects/FinalAutomation/Generic/src/main/java/utility/ExtentReport/ExtentManager.java

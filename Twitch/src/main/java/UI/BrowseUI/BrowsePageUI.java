@@ -1,11 +1,11 @@
 package UI.BrowseUI;
 
-import methods.CommonMethods;
+import Base.CommonAPI;
 
 /**
  * Created by abra on 2/1/17.
  */
-public class BrowsePageUI extends CommonMethods{
+public class BrowsePageUI extends CommonAPI{
 
 //int number;
 //

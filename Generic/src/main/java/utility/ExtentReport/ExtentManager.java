@@ -16,6 +16,11 @@ public class ExtentManager {
     private static ExtentReports extent;
     private static ITestContext context;
 
+
+
+
+
+//@Parameters({"Module"})
     public synchronized static ExtentReports getInstance() {
         if (extent == null) {
             File outputDirectory = new File(context.getOutputDirectory());
@@ -30,6 +35,7 @@ public class ExtentManager {
 
         return extent;
     }
+
 
     public static void setOutputDirectory(ITestContext context) {
         ExtentManager.context = context;

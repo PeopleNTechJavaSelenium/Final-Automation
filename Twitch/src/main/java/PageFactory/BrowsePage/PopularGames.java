@@ -1,6 +1,6 @@
 package PageFactory.BrowsePage;
 
-import methods.CommonMethods;
+import Base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 /**
  * Created by abra on 2/1/17.
  */
-public class PopularGames extends CommonMethods{
+public class PopularGames extends CommonAPI{
 
 
     @FindBy(how= How.CSS, using = "a[data-tt_content_index='1'][data-tt_content='popular_games']")

@@ -11,12 +11,13 @@ import static org.openqa.selenium.support.How.CSS;
  */
 public class TwitchLogIn extends CommonAPI {
 
-    @FindBy(how = CSS, using = "#header_login")
-    public WebElement LogInBtn;
+    @FindBy(how = CSS, using = "#username")
+    public WebElement LogInField;
 
 
-    public void LogInWindow() {
-        LogInBtn.click();
+    public void LogInTwitch() {
+        driver.navigate().to("https://www.twitch.tv/login");
+        System.out.println("Navigated to Sign In page");
     }
 
 }

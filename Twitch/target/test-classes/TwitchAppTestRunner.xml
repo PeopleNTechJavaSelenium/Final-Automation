@@ -11,13 +11,15 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="50"/>
     <parameter name="url" value="https://www.twitch.tv"/>
+    <parameter name="Module" value="Twitch"/>
+
 
     <test name = "Twitch Test">
         <classes>
-            <!--<class name="SignInTest.TwitchSignInTest"/>-->
             <class name="HomePageTest.FeaturedGamesTest.FeaturedGames"/>
             <class name="HomePageTest.TopLiveChannelTest.FirstTopLiveChannelTest"/>
             <class name="BrowseTest.PopularGamesTest"/>
+            <class name="BrowseTest.JobsTest"/>
             <!--<class name="HomePageTest.TopPS4ChannelsTest.AllTopPS4ChannelsTest"/>-->
         </classes>
     </test>

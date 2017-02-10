@@ -1,6 +1,6 @@
 package PageFactory.HomePage.SiteHeader;
 
-import methods.CommonMethods;
+import Base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 /**
  * Created by abra on 2/1/17.
  */
-public class SiteHeaderOptions extends CommonMethods {
+public class SiteHeaderOptions extends CommonAPI {
 
 
 

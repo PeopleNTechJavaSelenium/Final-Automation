@@ -36,6 +36,8 @@ public class AppleSignIn extends CommonAPI {
 
 
 
+
+
     public void appleLogin(String userID, String pass){
         homePageBagButton.click();
         TestLogger.log("Clicked on Bag icon");
