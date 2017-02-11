@@ -18,7 +18,7 @@ public class TestSearchBar extends CommonAPI{
     public void searchBarTest() throws Exception{
         AppleSearchBar appleSearchBar = PageFactory.initElements(driver, AppleSearchBar.class);
         appleSearchBar.searchIPhoneInSearchBar();
-        captureScreenshot(driver,"iPhone 7 search");
+        captureScreenshot(driver,"iPhone7Search");
         Assert.assertTrue(appleSearchBar.resultsFound.isDisplayed());
         TestLogger.log("'Results Found' is displayed");
         TestLogger.log("Search Bar functioning properly");

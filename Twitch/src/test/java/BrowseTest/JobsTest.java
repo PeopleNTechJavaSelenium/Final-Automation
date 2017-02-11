@@ -12,13 +12,15 @@ import org.testng.annotations.Test;
 public class JobsTest extends CommonMethods{
 
     @Test
-    public void getTwitchOverview() throws Exception{
+    public void getTwitchOverview() throws Exception {
         SiteFooterOptions sfo = PageFactory.initElements(driver, SiteFooterOptions.class);
         sfo.clickJobs();
         sfo.clickTwitchGlassDoorProfileBtn();
         switchToChildTab();
+        sfo.clickGlassdoorTwitchReadMoreBtn();
+        sfo.clickGlassdoorMissionReadMoreBtn();
         sfo.getOverview();
         switchToParentTab();
         Assert.assertTrue(sfo.TwitchLogo.isDisplayed());
     }
-}
+    }

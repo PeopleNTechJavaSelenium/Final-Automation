@@ -23,20 +23,46 @@ public class PopularGames extends CommonAPI{
 
 
 
-    public void findFirstPopularGame() throws InterruptedException {
+    public void findFirstPopularGame() throws Exception {
+        System.out.println("1st Popular Twitch Game");
+        System.out.println("<<<<<<<<<<< >>>>>>>>>>>");
         firstPopularGame.click();
         sleepFor(2);
+        System.out.println(driver.getTitle() + " : " + driver.getCurrentUrl());
 
+//        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+//        Date date = new Date();
+//        df.format(date);
+//        PrintStream out = new PrintStream(new FileOutputStream("../Twitch/Reports/First Popular Game Link "+df.format(date)+".txt"));
+//        System.setOut(out);
     }
 
-    public void findSecondPopularGame() throws InterruptedException {
+    public void findSecondPopularGame() throws Exception {
+        System.out.println("2nd Popular Twitch Game");
+        System.out.println("<<<<<<<<<<< >>>>>>>>>>>");
         secondPopularGame.click();
         sleepFor(2);
+        System.out.println(driver.getTitle() + " : " + driver.getCurrentUrl());
+
+//        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+//        Date date = new Date();
+//        df.format(date);
+//        PrintStream out = new PrintStream(new FileOutputStream("../Twitch/Reports/Second Popular Game "+df.format(date)+".txt"));
+//        System.setOut(out);
     }
 
-    public void findThridPopularGame() throws InterruptedException {
+    public void findThirdPopularGame() throws Exception {
+        System.out.println("3rd Popular Twitch Game");
+        System.out.println("<<<<<<<<<<< >>>>>>>>>>>");
         thirdPopularGame.click();
         sleepFor(2);
+        System.out.println(driver.getTitle()+" : "+driver.getCurrentUrl());
+
+//        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+//        Date date = new Date();
+//        df.format(date);
+//        PrintStream out = new PrintStream(new FileOutputStream("../Twitch/Reports/Third Popular Game "+df.format(date)+".txt"));
+//        System.setOut(out);
     }
 
 

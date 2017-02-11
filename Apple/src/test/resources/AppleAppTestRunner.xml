@@ -16,7 +16,7 @@
     <test name = "Apple Test">
         <classes>
             <class name="AppleHome.TestAppleHomePage"/>
-            <!--<class name="TestSignIn.TestAppleSignIn"/>-->
+            <class name="TestSignIn.TestAppleSignIn"/>
             <class name="AppleSearch.TestSearchBar"/>
             <class name="AppleSearch.TestSearchWithExcel"/>
             <class name="AppleSearch.TestSearchWithDataProvider"/>

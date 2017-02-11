@@ -2,65 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d77469d1-e8a0-4b17-b283-0197bef867e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/src/jar/org.apache.logging.log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twitch/src/test/java/SignInTest/TwitchSignInTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/SignInTest/TwitchSignInTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/BagPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/BagPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/HomePage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/HomePage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/MacbookPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/MacbookPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/MusicPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/MusicPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/SearchPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/SearchPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/SupportPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/SupportPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/TvPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/TvPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/iPadPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/iPadPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/iPhone 7 search.png" afterPath="$PROJECT_DIR$/Apple/screenshots/iPhone 7 search.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/iPhonePage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/iPhonePage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/screenshots/watchPage.png" afterPath="$PROJECT_DIR$/Apple/screenshots/watchPage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/classes/PageFactory/MacbookPro/MacbookProSpecs.class" afterPath="$PROJECT_DIR$/Apple/target/classes/PageFactory/MacbookPro/MacbookProSpecs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/classes/PageFactory/SignIn/AppleSignIn.class" afterPath="$PROJECT_DIR$/Apple/target/classes/PageFactory/SignIn/AppleSignIn.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/BagPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/HomePage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/MacbookPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/MusicPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/SearchPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/SupportPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/Top Live Channel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/TvPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/iPadPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/iPhone 7 search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/iPhonePage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/macbookProPriceComparison.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/searchIPhone7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/searchUsingDataProvider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Apple/screenshots/watchPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Twitch/Reports/Twitch Overview.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/classes/methods/CommonMethods.class" afterPath="$PROJECT_DIR$/Apple/target/classes/methods/CommonMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleHome/TestAppleHomePage.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleHome/TestAppleHomePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchBar.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithDB.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithDB.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithDataProvider.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithDataProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithExcel.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleSearch/TestSearchWithExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/MacbookProSpecsTable/TableData.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/MacbookProSpecsTable/TableData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/TestSignIn/TestAppleSignIn.class" afterPath="$PROJECT_DIR$/Apple/target/test-classes/TestSignIn/TestAppleSignIn.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/classes/utility/ExtentReport/ExtentManager.class" afterPath="$PROJECT_DIR$/Generic/target/classes/utility/ExtentReport/ExtentManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/BrowsePage/PopularGames.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/BrowsePage/PopularGames.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/LogIn/TwitchLogIn.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/LogIn/TwitchLogIn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/UI/BrowseUI/BrowsePageUI.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/UI/BrowseUI/BrowsePageUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/UI/HomePageUI/NavigationUI.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/UI/HomePageUI/NavigationUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/methods/CommonMethods.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/methods/CommonMethods.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/BrowseTest/PopularGamesTest.class" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/BrowseTest/PopularGamesTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/FeaturedGamesTest/FeaturedGames.class" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/FeaturedGamesTest/FeaturedGames.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/TopLiveChannelTest/FirstTopLiveChannelTest.class" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/TopLiveChannelTest/FirstTopLiveChannelTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.class" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/SiteFooter/SiteFooterOptions.class" afterPath="$PROJECT_DIR$/Twitch/target/classes/PageFactory/HomePage/SiteFooter/SiteFooterOptions.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/BrowseTest/JobsTest.class" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/BrowseTest/JobsTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/Extent-Report/Extent Report.html" afterPath="$PROJECT_DIR$/Apple/Extent-Report/Extent Report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java" afterPath="$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java" afterPath="$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java" afterPath="$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/test/java/MacbookProSpecsTable/TableData.java" afterPath="$PROJECT_DIR$/Apple/src/test/java/MacbookProSpecsTable/TableData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java" afterPath="$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java" afterPath="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml" afterPath="$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Apple/target/test-classes/AppleAppTestRunner.xml" afterPath="$PROJECT_DIR$/Apple/target/test-classes/AppleAppTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentManager.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/Extent-Report/Extent Report.html" afterPath="$PROJECT_DIR$/Twitch/Extent-Report/Extent Report.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/UI/BrowseUI/BrowsePageUI.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/UI/BrowseUI/BrowsePageUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/NavigationUI.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/NavigationUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/methods/CommonMethods.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/methods/CommonMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java" afterPath="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java" afterPath="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java" afterPath="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopLiveChannelTest/FirstTopLiveChannelTest.java" afterPath="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopLiveChannelTest/FirstTopLiveChannelTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java" afterPath="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml" afterPath="$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twitch/target/test-classes/TwitchAppTestRunner.xml" afterPath="$PROJECT_DIR$/Twitch/target/test-classes/TwitchAppTestRunner.xml" />
     </list>
@@ -82,11 +57,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <file leaf-file-name="PopularGamesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+            <state relative-caret-position="330">
+              <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,11 +69,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <file leaf-file-name="TableData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/MacbookProSpecsTable/TableData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeaturedGames.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/FeaturedGamesTest/FeaturedGames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAppleSignIn.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/TestSignIn/TestAppleSignIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,73 +109,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/MacbookProSpecsTable/TableData.java">
+      <file leaf-file-name="AllTopPS4ChannelsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppleAppTestRunner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml">
+      <file leaf-file-name="TestAppleHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAppleSignIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/TestSignIn/TestAppleSignIn.java">
+      <file leaf-file-name="TestSearchBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java">
+      <file leaf-file-name="TestSearchWithDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="375">
+              <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <file leaf-file-name="TestSearchWithDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppleSignIn.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="688">
-              <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MacbookProSpecs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -206,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Twitch/pom.xml" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/AppleTable/TableData.java" />
         <option value="$PROJECT_DIR$/Apple/src/log4j.properties" />
         <option value="$PROJECT_DIR$/Apple/log4j.Properties" />
@@ -230,33 +202,34 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentTestManager.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/TestLogger.java" />
         <option value="$PROJECT_DIR$/Apple/src/main/java/PageFactory/SearchBar/AppleSearchBar.java" />
-        <option value="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDataProvider.java" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDB.java" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithExcel.java" />
         <option value="$PROJECT_DIR$/Apple/src/main/java/PageFactory/HomePage/PageHeader/AppleHomePageHeader.java" />
-        <option value="$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteHeader/SiteHeaderOptions.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/UI/BrowseUI/BrowsePageUI.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/NavigationUI.java" />
-        <option value="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java" />
         <option value="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopLiveChannelTest/FirstTopLiveChannelTest.java" />
         <option value="$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/TestSignIn/TestAppleSignIn.java" />
         <option value="$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java" />
         <option value="$PROJECT_DIR$/Twitch/src/main/java/methods/CommonMethods.java" />
-        <option value="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java" />
-        <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java" />
-        <option value="$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/Apple/src/test/java/MacbookProSpecsTable/TableData.java" />
         <option value="$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java" />
+        <option value="$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java" />
+        <option value="$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java" />
+        <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java" />
+        <option value="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java" />
+        <option value="$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:43AM).txt" />
+        <option value="$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java" />
+        <option value="$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java" />
       </list>
     </option>
   </component>
@@ -306,9 +279,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
+    <option name="x" value="70" />
     <option name="y" value="23" />
-    <option name="width" value="1852" />
+    <option name="width" value="1850" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -386,6 +359,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -399,211 +373,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Generic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MacbookProSpecsTable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FinalAutomation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Apple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -630,7 +401,7 @@
       <recent name="$PROJECT_DIR$/Apple/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml">
     <configuration default="false" name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Twitch" />
@@ -1092,40 +863,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 08m 26s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 14m 50s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 15m 49s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 16m 19s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 17m 02s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Apple_src_test_resources_AppleAppTestRunner_xml - 2017.02.10 at 13h 21m 39s.xml">
-      <configuration name="/Users/abra/maven-projects/FinalAutomation/Apple/src/test/resources/AppleAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.10 at 12h 45m 41s.xml">
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 46m 27s.xml">
       <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.10 at 12h 47m 20s.xml">
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 47m 49s.xml">
       <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.10 at 12h 53m 07s.xml">
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 51m 02s.xml">
       <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.10 at 13h 03m 39s.xml">
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 53m 04s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 54m 54s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 11h 59m 41s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 12h 04m 05s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 12h 05m 48s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 12h 08m 04s.xml">
+      <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_abra_maven-projects_FinalAutomation_Twitch_src_test_resources_TwitchAppTestRunner_xml - 2017.02.11 at 12h 10m 58s.xml">
       <configuration name="/Users/abra/maven-projects/FinalAutomation/Twitch/src/test/resources/TwitchAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1852" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="23" width="1850" height="1057" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1137,12 +908,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5022124" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1868743" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.49778762" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32953367" sideWeight="0.49778762" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23701657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25553098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1192,7 +963,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1201,126 +972,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader/UseDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10-sources.jar!/org/testng/Reporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="149" column="21" lean-forward="false" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/SearchBar/AppleSearchBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/Extent-Report/Extent Report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/report-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1211#1212#0" expanded="false" />
-            <element signature="e#1258#1259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/SignInTest/TwitchSignInTest.java" />
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/TopPS4Channels/AllTopPS4Channels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/BrowseUI/BrowsePageUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/LogIn/LogInBtn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/Search/SearchBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/SignUp/SignUpBtn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/TwitchPrime/TwitchPrimeBtn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/HomePageUI/NavigationUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/UI/LoginUI/LoginPageUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1349,14 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/FeaturedGames/Dota2FeaturedGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1364,63 +1007,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/HomePage/PageHeader/AppleHomePageHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/TopLiveChannels/FirstTopLiveChannel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
-            <element signature="e#630#631#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,19 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#806#807#0" expanded="false" />
-            <element signature="e#839#840#0" expanded="false" />
-            <element signature="e#877#878#0" expanded="false" />
-            <element signature="e#918#919#0" expanded="false" />
-            <element signature="e#951#952#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1018#1019#0" expanded="false" />
-            <element signature="e#1051#1052#0" expanded="false" />
-            <element signature="e#1088#1089#0" expanded="false" />
-            <element signature="e#1123#1124#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1448,7 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,13 +1036,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/methods/CommonMethods.java">
+    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16260">
+          <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/LogIn/TwitchLogIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1478,51 +1083,229 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithExcel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="25" column="68" lean-forward="false" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/ExtentReport/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="74" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/screenshots/HomePage (02.11.2017-11:05AM).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/HomePage/PageHeader/AppleHomePageHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="199" column="92" lean-forward="false" selection-start-line="199" selection-start-column="92" selection-end-line="199" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/Twitch Overview (02.11.2017-11:11AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="282" lean-forward="false" selection-start-line="9" selection-start-column="282" selection-end-line="9" selection-end-column="282" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/SearchBar/AppleSearchBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/Extent-Report/Extent Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/methods/CommonMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/Second Popular Game (02.11.2017-11:39AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/Third Popular Game (02.11.2017-11:39AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:38AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:43AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:46AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:47AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/HomePage/SiteFooter/SiteFooterOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="53" column="16" lean-forward="false" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1286#1287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:50AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/test/resources/TwitchAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="87" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/Twitch Overview (02.11.2017-11:20AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:53AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/Reports/First Popular Game Link (02.11.2017-11:54AM).txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/main/java/PageFactory/BrowsePage/PopularGames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/JobsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/BrowseTest/PopularGamesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1542,34 +1325,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/MacbookPro/MacbookProSpecs.java">
+    <entry file="file://$PROJECT_DIR$/Twitch/src/test/java/HomePageTest/TopPS4ChannelsTest/AllTopPS4ChannelsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleHome/TestAppleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="1141" column="0" lean-forward="false" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/TestSignIn/TestAppleSignIn.java">
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDataProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="30" column="73" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/AppleSearch/TestSearchWithDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1582,39 +1373,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/Apple/src/test/java/TestSignIn/TestAppleSignIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/test/resources/AppleAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/methods/CommonMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Apple/src/main/java/PageFactory/SignIn/AppleSignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

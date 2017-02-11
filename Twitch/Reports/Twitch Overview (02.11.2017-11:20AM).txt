@@ -1,0 +1,16 @@
+Website www.twitch.tv
+Headquarters San Francisco, CA
+Size 501 to 1000 employees
+Part of Amazon
+Founded 2011
+Type Subsidiary or Business Segment
+Industry Media
+Revenue Unknown / Non-Applicable
+Twitch is the world’s leading video platform and community for gamers, with more than 100 million visitors per month. We connect gamers from around the world by allowing them to broadcast, watch, and chat with each other. Twitch’s live and on-demand video platform forms the backbone of a distribution network for video game broadcasters including pro players, tournaments, leagues, developers and gaming media organizations. Twitch is leading a revolution in gaming culture, turning gameplay into an immersive video experience.
+Mission: Twitch’s video platform is the backbone of both live and on-demand distribution for the entire video game ecosystem. This includes game developers, publishers, media outlets, events, user generated content, and the entire esports scene. In February 2014, Wall Street Journal ranked Twitch as the 4th largest website in terms of peak internet traffic in the U.S., fortifying the brand as an entertainment industry leader and the epicenter of social video for gamers.
+
+===============================================
+Twitch on Chrome
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+

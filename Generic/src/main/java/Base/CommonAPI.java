@@ -25,6 +25,8 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.net.URL;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -80,6 +82,10 @@ public class CommonAPI {
         ExtentTestManager.endTest();  // new
 
         extent.flush();
+
+        if (result.getStatus() == ITestResult.FAILURE) {
+            captureScreenshot(driver, result.getName());
+        }
         driver.quit();
     }
 
@@ -185,10 +191,13 @@ public class CommonAPI {
 
     public static void captureScreenshot(WebDriver driver, String screenshotName){
 
+        DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+        Date date = new Date();
+        df.format(date);
+
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file, new File("../Apple/screenshots/"+screenshotName+".png"));
-
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
 //            DateFormat df = new SimpleDateFormat("HHmmss");
 //            Date dateobj = new Date();
 //            String fileName = "Screenshots\\screenshot3”+dateobj+”.png"
@@ -201,7 +210,7 @@ public class CommonAPI {
 
     }
 
-    //Taking Screenshots
+    //Taking Screenshots (Simplified)
     public void takeScreenShot()throws IOException {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(file,new File("screenShots.png"));

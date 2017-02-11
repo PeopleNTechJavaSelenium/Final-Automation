@@ -5,6 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -22,6 +27,14 @@ public class SiteFooterOptions extends CommonAPI {
     @FindBy(css = ".svg-logo_twitch")
     public WebElement TwitchLogo;
 
+    @FindBy(css = "#ExpandDesc")
+    public WebElement GlassdoorTwitchReadMoreBtn;
+
+    @FindBy(css = "#ExpandMission")
+    public WebElement GlassdoorMissionReadMoreBtn;
+
+
+
     public void clickJobs() {
         JobsBtn.click();
     }
@@ -30,22 +43,27 @@ public class SiteFooterOptions extends CommonAPI {
         TwitchGlassDoorProfileBtn.click();
     }
 
-    public void getOverview() throws FileNotFoundException {
-//        WebDriverWait wait = new WebDriverWait(driver, 20);
-//        WebElement element = wait.until(
-//                ExpectedConditions.visibilityOfElementLocated(By.cssSelector("div[id='EmpBasicInfo'][class='module empBasicInfo']")));
+    public void clickGlassdoorTwitchReadMoreBtn(){
+        GlassdoorTwitchReadMoreBtn.click();
+    }
 
+    public void clickGlassdoorMissionReadMoreBtn(){
+        GlassdoorMissionReadMoreBtn.click();
+    }
+
+    public void getOverview() throws FileNotFoundException {
         List<WebElement> list = getListOfWebElementsByCss("div[id='EmpBasicInfo'] div");
         for (WebElement w : list) {
             System.out.println(w.getText());
-//            PrintStream out = new PrintStream(new FileOutputStream("/Users/abra/maven-projects/FinalAutomation/Twitch/Reports/Twitch Overview.txt"));
-//            System.setOut(out);
+
+            DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
+            Date date = new Date();
+            df.format(date);
+            PrintStream out = new PrintStream(new FileOutputStream("../Twitch/Reports/Twitch Overview "+df.format(date)+".txt",true));
+            System.setOut(out);
         }
     }
-
-
-
-    }
+}
 
 
 
