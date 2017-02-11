@@ -4,9 +4,9 @@
 
 <suite name="Apple on Chrome" parallel="methods" thread-count="1" allow-return-values="true">
 
-    <parameter name="useCloudEnv" value="false"/>
-    <parameter name="userName" value="Abrasham_94"/>
-    <parameter name="accessKey" value="de23f75f-74d4-42e3-8bda-f66b0acbf827"/>
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="userName" value="Abra_94"/>
+    <parameter name="accessKey" value="9e184025-dc96-4f16-b0ac-97be83f5b12c"/>
     <parameter name="os" value="Mac"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="50"/>
